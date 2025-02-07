@@ -13,7 +13,7 @@ export default function Hero() {
               Bridging creativity and technology to deliver expectational experiences
             </div>
             <div className="text-sm md:text-xl/tight tracking-wide">
-              We&#39;re a team of expert designers, software developers and marketers who've been delivering digital products
+              We&#39;re a team of expert designers, software developers and marketers who&#39;ve been delivering digital products
             </div>
           </div>
 
