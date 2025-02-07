@@ -13,7 +13,7 @@ export default function Hero() {
               Bridging creativity and technology to deliver expectational experiences
             </div>
             <div className="text-sm md:text-xl/tight tracking-wide">
-              We're a team of expert designers, software developers and marketers who've been delivering digital products
+              We&#39;re a team of expert designers, software developers and marketers who've been delivering digital products
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className="mb-10">
             <div className="text-sm md:text-xl/tight tracking-wide mb-6 text-center items-center justify-center">
-              It's a never-ending story of many incredible ideas
+              It&#39;s a never-ending story of many incredible ideas
             </div>
             <div className="flex justify-center">
               <Link href="/" className="text-center">
