@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Menu({ isMobileMenu = false, items, activeItem, setActiveItem, className = "" }) {
+export default function Menu({ isMobileMenu = false, items, activeItem, setActiveItem, className = "" }): React.HtmlHTMLAttributes<HTMLMenuElement> {
   if (isMobileMenu) {
     return (
       <div className="fixed top-[100] right-0 w-[60%] h-full bg-[#010000] text-white shadow-lg z-20 flex flex-col items-center py-4">

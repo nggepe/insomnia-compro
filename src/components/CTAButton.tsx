@@ -2,7 +2,6 @@
 
 import React from "react";
 
-
 export default function CTAButton({ children, className = "", ...props }: React.HTMLAttributes<HTMLButtonElement>) {
   return (
     <button
