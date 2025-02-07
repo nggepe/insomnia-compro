@@ -6,12 +6,12 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <main>
-      <Hero/>
-      <Introduction/>
-      <Services/>
-    </main>
+      <Navbar />
+      <main>
+        <Hero />
+        <Introduction />
+        <Services />
+      </main>
     </>
   );
 }
