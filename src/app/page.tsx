@@ -1,4 +1,4 @@
-import About from "@/components/About";
+import Introduction from "@/components/Introduction";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -6,12 +6,12 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <main>
-      <Hero/>
-      <About/>
-      <Services/>
-    </main>
+      <Navbar />
+      <main>
+        <Hero />
+        <Introduction />
+        <Services />
+      </main>
     </>
   );
 }
