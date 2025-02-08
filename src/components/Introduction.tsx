@@ -1,10 +1,10 @@
 import CTAButton from "./CTAButton";
-import SideTitle from "./SideTitle";
+import SideMark from "./SideMark";
 
 export default function Introduction() {
   return (
     <section id="introduction" className="relative px-6 py-8 md:px-12 md:py-16 bg-[#1F1F1F] text-white">
-      <SideTitle className="absolute top-20 -left-9">ABOUT US</SideTitle>
+      <SideMark className="absolute top-20 -left-9">ABOUT US</SideMark>
       <div className="flex flex-col gap-8 px-8 py-3">
         <div className="text-2xl md:text-4xl font-semibold tracking-wide">
           Your Vision, Our Creative Mission
