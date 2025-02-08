@@ -5,8 +5,8 @@ import CTAButton from "./CTAButton";
 export default function Hero() {
   return (
     <section
-      className="relative w-full h-[90vh] flex justify-center items-center bg-opacity-60 bg-center bg-cover text-[#EAEAEA] overflow-hidden"
-      style={{ backgroundImage: "url('/bg-hero.png')" }}
+      className="relative w-full flex justify-center items-center bg-opacity-60 bg-center bg-cover text-[#EAEAEA] overflow-hidden"
+      style={{ backgroundImage: "url('/bg-hero.png')", height: "calc(100vh - 100px)"}}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
