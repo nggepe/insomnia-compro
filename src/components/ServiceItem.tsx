@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 interface ServiceItemProps {
   title: string;
   description: string;
@@ -23,10 +25,14 @@ export default function ServiceItem({
       <div className="text-base md:text-xl text-[#BBBBBB] md:h-16 line-clamp-2">
         {description}
       </div>
-      <div
-        className="h-[200] w-full rounded-lg bg-center bg-cover"
-        style={{ backgroundImage: `url(${imageSrc})`}}
-      />
+      <div className="relative w-full h-[200px] rounded-lg overflow-hidden">
+        <Image
+          src={imageSrc}
+          alt={title}
+          fill
+          className="object-cover"
+        />
+      </div>
       <div className="flex py-3 gap-1 md:gap-3 overflow-clip">
         {keywords.map((item) => (
           <div
